@@ -54,7 +54,7 @@ else {
            <tr>
              <td > <img src = "images/drapeau/<?php echo strtolower($pays-> Code2 )?>.png"> </td> 
              <td> <?php echo $pays->id ?></td>
-             <td> <a href="<?php $pays->Name;?>"Formulaire</a> </td>
+             <td> <a href= "formulaire_pays.php?="><?php echo $pays->Name;?></a> </td>
              <td> <?php echo $pays->Population ?></td>
              <td> <?php echo $pays->Continent ?></td>
              <td> <?php echo $pays->LocalName ?></td>
